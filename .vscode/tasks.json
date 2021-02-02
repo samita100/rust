@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cargo",
+			"subcommand": "run",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"label": "Rust: cargo run - rust"
+		},
+		{
+			"type": "cargo",
+u
+a		"type": "cargo",
+u
+			"type": "cargo",
+n			"type": "cargo",
+u
+			"type": "cargo",
+",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"group": "build",
+			"label": "Rust: cargo build - rust"
+		}
+	]
+}
