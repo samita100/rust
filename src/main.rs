@@ -1,8 +1,7 @@
-fn main() {
-    let mut n :u32 = 3;
+use std::io;
 
-    for i in 1..n {
-        n *= i;
-    }
-    println!("{}", n);
+fn main() {
+    let mut guess = String::new();
+    io::stdin().read_line(&mut guess)
+                .expect("Failed..."); 
 }
