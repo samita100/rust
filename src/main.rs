@@ -1,7 +1,11 @@
-use std::io;
+use rand::Rng;
 
 fn main() {
-    let mut guess = String::new();
-    io::stdin().read_line(&mut guess)
-                .expect("Failed..."); 
+    println!("Hello world :)");  
+    let secret_number = rand::thread_rng().gen_range(1..101);
+    match secret_number {
+        1 => println!("lolo"),
+        2 => println!("Golo"),
+        _ => println!("nthing"),
+    }
 }
