@@ -1,5 +1,5 @@
 use rand::Rng;
-use std::in
+use std::io;
 fn main() {
     println!("Hello world :)");  
     let secret_number = rand::thread_rng().gen_range(1..101);
@@ -8,4 +8,8 @@ fn main() {
         2 => println!("Golo"),
         _ => println!("nthing"),
     }
+}
+
+fn maina() {
+    let rohan :i32 = rand::thread_rng().gen_range(1..100);
 }
